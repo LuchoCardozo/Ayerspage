@@ -1,0 +1,92 @@
+body {
+background: none;
+}
+
+header {
+    height: 70px;
+    background: rgb(53, 50, 50);
+}
+
+.logo {
+    padding: 20px;
+    width: 200px;
+}
+
+nav ul {
+    margin: 15px;
+    float: right;
+}
+
+nav ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 5%;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+    text-transform: uppercase;
+}
+
+.splash {
+    width: 100%;
+    height: 100vh;
+    background: url(../Images/fondo3.png) center center fixed;
+    background-size: cover;
+}
+
+.splash h1{
+    margin-top: 270px;
+    margin-left: 15px;
+    padding: 0  px;
+    text-decoration: underline;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.espacios {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.descripcion h1 {
+    text-decoration: underline;
+}
+
+.row-centrado {
+    background: rgb(53, 50, 50);
+} 
+
+.content {
+    text-align: left;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 1px 3px 3px 0px;
+    padding-top: 30px;
+}
+
+.col-md-3 {
+    padding-top: 50px;
+}
+
+.row h1 {
+    padding-bottom: 50px;
+}
+
+i{
+    color: rgb(80, 82, 142)
+}
+
+.autor{
+    font-size: 30px;
+}
+
+#leyenda {
+    background: rgb(223, 223, 223);
+}
